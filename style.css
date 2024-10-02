@@ -49,6 +49,8 @@ body{
 
 header{
     background-color: #333;
+    position: sticky;
+    top: 0;
 }
 
 ul {
@@ -61,8 +63,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
+    
   }
   
   li {
@@ -123,7 +124,7 @@ ul {
 }
 
 #skill {
-    font-family: Arial, Helvetica, sans-serif;
+   
     border-collapse: collapse;
     width: 100%;
   }
@@ -145,3 +146,169 @@ ul {
 
 
 /* skills section style end */
+
+
+/* experience section style start */
+
+.experience-container{
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 10px;
+
+}
+.experience-title{
+    font-weight: bold;
+}
+
+.experience-div{
+    padding: 10px 100px;
+    /* background-color: #f1f0f0; */
+    margin-top: 10px;
+
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-left: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid #fffefe;
+    gap: 10px;
+}
+
+.experience-container h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    /* margin-top: 10px; */
+
+
+    
+}
+
+/* experience section style end */
+
+/* education section style start */
+
+.education-container{
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.education-title{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+#education-table-content {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #education-table-content td, #education-table-content th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-left: 12px;
+    font-size: 15px;
+  }
+  
+  #education-table-content tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #education-table-content tr:hover {background-color: #ddd;}
+  
+  #education-table-content th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    text-align: left;
+    background-color:rgb(62, 61, 61);
+    color: white;
+  }
+
+
+/* education section style end */
+
+
+/* Achievements section style start */
+.Achievements{
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 10px;
+
+}
+
+#Achievement{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Achievement td{
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-left: 5px solid #000;
+    border-bottom: 5px solid #fffefe;
+    background-color: #f9f9f9;
+    gap: 10px;
+  }
+
+  .Achievements h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+/* Achievements section style end */
+
+
+/* Contact- section style start */
+.Contact-container{
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 10px;
+}
+
+.Contact-container h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #message{
+    /* width: 100%; */
+    /* padding: 10px 100px; */
+    /* padding: 12px 20px; */
+padding-bottom: 12px;
+padding-top: 10px;
+
+  }
+
+/* contact section style end */
