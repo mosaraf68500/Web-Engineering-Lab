@@ -1,53 +1,42 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-
 }
 
-
-.profile{
-     background-color: #f4f4f4;
+.profile {
+    background-color: #f4f4f4;
     padding: 40px 0;
-  
 }
-.img-div{
+
+.img-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-top: 50px; */
-    
 }
-.photo{
+
+.photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    text-align: center;
-    
-   
 }
 
-.img-div h5{
+.img-div h5 {
     color: gray;
     font-size: medium;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    
+    margin-top: 0;
 }
 
-.img-div p{
+.img-div p {
     color: gray;
     font-size: small;
-    margin-top: 0px;
 }
 
-
-/* navbar style start */
-
-header{
+/* Navbar Style Start */
+header {
     background-color: #333;
     position: sticky;
     top: 0;
@@ -59,214 +48,179 @@ ul {
     text-align: center;
     margin: auto;
     padding: 0;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     background-color: #111;
-  }
-  
+}
+/* Navbar Style End */
 
-/* navbar style end */
-
-/* about me section start */
-
-.about-me{
+/* About Me Section Start */
+.about-me {
     padding: 10px 100px;
     background-color: #f1f0f0;
-    /* text-align: center; */
     margin-top: 30px;
 }
 
-.about-me h2{
+.about-me h2 {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
 }
 
-.about-me p{
+.about-me p {
     font-size: 16px;
     margin-bottom: 20px;
 }
+/* About Me Section End */
 
-
-    
-
-/*about me style start section end  */
-
-
-/* skills section style start */
-
-.skills{
+/* Skills Section Style Start */
+.skills {
     padding: 10px 100px;
     background-color: #f1f0f0;
     margin-top: 10px;
 }
 
-.skills h2{
+.skills h2 {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
 }
 
 #skill {
-   
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  #skill td{
-    margin: 0 auto;
+}
+
+#skill td {
     padding: 10px 15px;
     font-size: 16px;
     border-left: 5px solid #000;
     border-bottom: 5px solid #fffefe;
     background-color: #f9f9f9;
-    gap: 10px;
-  }
-  
-  #skill tr:nth-child(even){background-color: #554141;}
-  
- 
-  
+}
 
+#skill tr:nth-child(even) {
+    background-color: #554141;
+}
+/* Skills Section Style End */
 
-/* skills section style end */
-
-
-/* experience section style start */
-
-.experience-container{
+/* Experience Section Style Start */
+.experience-container {
     padding: 10px 100px;
     background-color: #f1f0f0;
     margin-top: 10px;
-
 }
-.experience-title{
+
+.experience-title {
     font-weight: bold;
 }
 
-.experience-div{
-    padding: 10px 100px;
-    /* background-color: #f1f0f0; */
-    margin-top: 10px;
-
-    margin: 0 auto;
+.experience-div {
     padding: 10px 15px;
     font-size: 16px;
     border-left: 5px solid rgb(0, 0, 0);
     border-bottom: 5px solid #fffefe;
-    gap: 10px;
+    margin: 10px 0;
 }
 
-.experience-container h2{
+.experience-container h2 {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
-    /* margin-top: 10px; */
-
-
-    
 }
+/* Experience Section Style End */
 
-/* experience section style end */
-
-/* education section style start */
-
-.education-container{
+/* Education Section Style Start */
+.education-container {
     padding: 10px 100px;
     background-color: #f1f0f0;
-    /* margin-top: 10px; */
     margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
-.education-title{
+.education-title {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
 }
+
 #education-table-content {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  #education-table-content td, #education-table-content th {
+}
+
+#education-table-content td, 
+#education-table-content th {
     border: 1px solid #ddd;
     padding: 8px;
     padding-left: 12px;
     font-size: 15px;
-  }
-  
-  #education-table-content tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #education-table-content tr:hover {background-color: #ddd;}
-  
-  #education-table-content th {
+}
+
+#education-table-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#education-table-content tr:hover {
+    background-color: #ddd;
+}
+
+#education-table-content th {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 15px;
     text-align: left;
-    background-color:rgb(62, 61, 61);
+    background-color: rgb(62, 61, 61);
     color: white;
-  }
+}
+/* Education Section Style End */
 
-
-/* education section style end */
-
-
-/* Achievements section style start */
-.Achievements{
+/* Achievements Section Style Start */
+.Achievements {
     padding: 10px 100px;
     background-color: #f1f0f0;
     margin-top: 10px;
-
 }
 
-#Achievement{
+#Achievement {
     border-collapse: collapse;
     width: 100%;
 }
 
-#Achievement td{
-    margin: 0 auto;
+#Achievement td {
     padding: 10px 15px;
     font-size: 16px;
     border-left: 5px solid #000;
     border-bottom: 5px solid #fffefe;
     background-color: #f9f9f9;
-    gap: 10px;
-  }
+}
 
-  .Achievements h2{
+.Achievements h2 {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
 }
+/* Achievements Section Style End */
 
-/* Achievements section style end */
-
-
-/* Contact- section style start */
-.Contact-container{
+/* Contact Section Style Start */
+.Contact-container {
     padding: 10px 100px;
     background-color: #f1f0f0;
     margin-top: 10px;
 }
 
-.Contact-container h2{
+.Contact-container h2 {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
 }
@@ -279,36 +233,31 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #25a029;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  div {
+}
+
+input[type=submit]:hover {
+    background-color: #28832d;
+}
+
+div {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
+}
 
-  #message{
-    /* width: 100%; */
-    /* padding: 10px 100px; */
-    /* padding: 12px 20px; */
-padding-bottom: 12px;
-padding-top: 10px;
+#message {
+    padding: 10px 0 12px; /* Top and bottom padding */
+}
 
-  }
-
-/* contact section style end */
+/* Contact Section Style End */
