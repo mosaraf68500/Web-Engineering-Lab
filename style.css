@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 .photo {
@@ -23,12 +24,16 @@ body {
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 10px 10px 10px rgba(255,255,255 );
+    padding-top: 0;
 }
 
-.img-div h5 {
+
+
+.img-div p {
     color: gray;
     font-size: medium;
     margin-top: 0;
+    padding-top: 0;
 }
 
 .img-div p {
